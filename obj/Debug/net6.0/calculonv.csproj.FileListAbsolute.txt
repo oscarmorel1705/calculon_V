@@ -1,0 +1,15 @@
+C:\Users\Lerom X\Desktop\programando\calculon_V\bin\Debug\net6.0\calculonv.exe
+C:\Users\Lerom X\Desktop\programando\calculon_V\bin\Debug\net6.0\calculonv.deps.json
+C:\Users\Lerom X\Desktop\programando\calculon_V\bin\Debug\net6.0\calculonv.runtimeconfig.json
+C:\Users\Lerom X\Desktop\programando\calculon_V\bin\Debug\net6.0\calculonv.dll
+C:\Users\Lerom X\Desktop\programando\calculon_V\bin\Debug\net6.0\calculonv.pdb
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\calculonv.csproj.AssemblyReference.cache
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\calculonv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\calculonv.AssemblyInfoInputs.cache
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\calculonv.AssemblyInfo.cs
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\calculonv.csproj.CoreCompileInputs.cache
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\calculonv.dll
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\refint\calculonv.dll
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\calculonv.pdb
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\calculonv.genruntimeconfig.cache
+C:\Users\Lerom X\Desktop\programando\calculon_V\obj\Debug\net6.0\ref\calculonv.dll
