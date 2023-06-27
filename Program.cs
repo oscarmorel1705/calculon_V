@@ -25,15 +25,25 @@ namespace calculon_V
             Console.WriteLine("3: Multiplicacion");
             Console.WriteLine("4: Division");
             Console.WriteLine("5: Modelo");
-            Console.WriteLine("6: Salir");
+            Console.WriteLine("6: Valor Absoluto");
+            Console.WriteLine("7: Potencia");
+            Console.WriteLine("8: Seno");
+            Console.WriteLine("9: Raiz Cuadrada");
+            Console.WriteLine("10: Redondeo");
+            Console.WriteLine("11: Coseno");
+            Console.WriteLine("12: Tangente");
+            Console.WriteLine("13: Pi");
+            Console.WriteLine("14: salir");
             //declarando variable de respuesta del cliente
             int respuestaUsuario= Convert.ToInt32(Console.ReadLine());
-            if (respuestaUsuario < 7 && respuestaUsuario != 6)
+            if (respuestaUsuario < 15 && respuestaUsuario != 14 && respuestaUsuario != 6 && respuestaUsuario != 8 && respuestaUsuario != 9 && respuestaUsuario != 10 && respuestaUsuario != 11 && respuestaUsuario != 12 && respuestaUsuario != 13)
             {
                 Console.WriteLine("digite el primer numero: ");
-                modelo.Numero_A= Convert.ToDecimal(Console.ReadLine());
+                modelo.Numero_A= Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("digite un siguiente numero: ");
-                modelo.Numero_B= Convert.ToDecimal(Console.ReadLine());
+                modelo.Numero_B= Convert.ToDouble(Console.ReadLine());
+                
+
                 switch (respuestaUsuario)
                 {   case 1:
                         Console.WriteLine("la suma es igual a : "+operar.Suma(modelo));
@@ -49,12 +59,61 @@ namespace calculon_V
                     break;
                     case 5:
                         Console.WriteLine("El residuo es igual a : "+operar.Modulo(modelo));
-                    break;    
+                    break;
+                    /*case 6:
+                        Console.WriteLine("El valor absoluto de "+modelo.Numero_A+" es igual a : "+operar.Valor_Abs(modelo));
+                        */
+                    case 7:
+                        Console.WriteLine(modelo.Numero_A+" elevado a "+modelo.Numero_B+" es igual a : "+operar.Potenciacion(modelo));
+                    break;
+                    /*case 8:
+                        Console.WriteLine("El seno de"+modelo.Numero_A+" es igual a : "+operar.Seno(modelo));
+                    break; */  
+                     
                 }   
-            } 
-            else if (respuestaUsuario== 6)
+            }
+            else if (respuestaUsuario == 6 || respuestaUsuario == 8 || respuestaUsuario == 9 || respuestaUsuario == 10 || respuestaUsuario == 11 || respuestaUsuario == 12)
+            {
+                Console.WriteLine("digite un numero: ");
+                modelo.Numero_A= Convert.ToDouble(Console.ReadLine());
+                
+                
+
+                switch (respuestaUsuario)
+                {   
+                    case 6:
+                        Console.WriteLine("El valor absoluto de "+modelo.Numero_A+" es igual a : "+operar.Valor_Abs(modelo));
+                    break;
+                    case 8:
+                        Console.WriteLine("El seno de "+modelo.Numero_A+" es igual a : "+operar.Seno(modelo));
+                    break;
+                    case 9:
+                        Console.WriteLine("la raiz cuadrada de "+modelo.Numero_A+" es igual a : "+operar.Raiz_Cuad(modelo));
+                    break;
+                    case 10:
+                        Console.WriteLine("el entero mas cercano a "+modelo.Numero_A+" es : "+operar.Redondeo(modelo));
+                    break;
+                    case 11:
+                        Console.WriteLine("el coseno de "+modelo.Numero_A+" es : "+operar.Coseno(modelo));
+                    break;
+                    case 12:
+                        Console.WriteLine("la tangente de "+modelo.Numero_A+" es : "+operar.tangente(modelo));
+                    break; 
+                      
+                }
+            }// agregamos funcion 14//
+            else if (respuestaUsuario== 14)
             {
                 break;
+            }
+            else if (respuestaUsuario== 13)
+            {
+                switch (respuestaUsuario)
+                {
+                    case 13:
+                    Console.WriteLine("el valor de pi es : "+operar.Pi(modelo));
+                    break;
+                }
             }
             else
             {
